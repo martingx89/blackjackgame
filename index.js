@@ -1,3 +1,7 @@
+let player = {
+	name: "Mat",
+	chips: 200,
+};
 let cards = [];
 let sum = 0;
 
@@ -10,10 +14,6 @@ let sumEl = document.getElementById("sum-el");
 let cardsEl = document.getElementById("cards-el");
 let playerEl = document.getElementById("player-el");
 
-let player = {
-	name: "Mat",
-	chips: 145,
-};
 playerEl.textContent = `${player.name}: $${player.chips}`;
 
 function startGame() {
@@ -62,13 +62,3 @@ function getRandomCard() {
 		return randomNumber;
 	}
 }
-
-// let age = 22;
-
-// if (age <= 21) {
-// 	console.log("You can not enter to the club");
-// } else {
-// 	console.log("Welcome to the club");
-// }
-
-// console.log(hasBlackJack);
