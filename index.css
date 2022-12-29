@@ -1,0 +1,46 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #005800;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/pool_table.png);
+}
+
+h1 {
+	font-size: 38px;
+	color: #daa520;
+}
+
+p {
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+}
+#message-el {
+	font-style: italic;
+}
+
+button {
+	margin-bottom: 20px;
+	width: 250px;
+	background-color: #daa520;
+	border: none;
+	border-radius: 5px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #008800;
+	padding: 10px 20px;
+	box-shadow: 0 0 20px #000;
+	transition: bacground-color 0.5s, transform 0.3s, box-shadow 0.2s;
+}
+
+button:active {
+	background-color: #005500;
+	transform: scale(0.95);
+}
+
+button:hover {
+	box-shadow: 0px 0px 20px #daa520;
+}
